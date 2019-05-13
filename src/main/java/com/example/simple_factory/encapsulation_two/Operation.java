@@ -20,7 +20,7 @@ public class Operation {
         this.numberB = numberB;
     }
 
-    public  Double getResult(Double numberA, Double numberB){
+    public  Double getResult(){
         Double result  = 0d ;
         result = numberA - numberB;
         return  result;
